@@ -84,7 +84,8 @@ WHERE departmentemployees.emp_no IN
 		WHERE dept_name = 'Sales' OR 
 		dept_name = 'Development'
 		)
-	);
+	)
+AND departments.dept_name IN ('Sales', 'Development');
 
 -- List the frequency counts, in descending order, of all the employee last names (that is, how many employees share each last name).
 SELECT last_name, COUNT(last_name) AS "Frequency Count"
