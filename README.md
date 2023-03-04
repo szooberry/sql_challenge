@@ -1,6 +1,6 @@
 # sql_challenge
 
-The purpose of this challenge is to import employee name, sex, birth date, hiring date, department, salary and title data into an SQL database
+The purpose of this challenge is to import employee name, sex, birth date, hiring date, department, salary and title data from an old company database into an SQL database
 
 The Schema for this data is outlined in the Entity Relationship Diagram image file titled 'Entity Relationship Diagram.png'
 
