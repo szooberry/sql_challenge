@@ -1,11 +1,4 @@
-﻿DROP TABLE departments;
-DROP TABLE titles;
-DROP TABLE employees;
-DROP TABLE departmentemployees;
-DROP TABLE departmentmanagers;
-DROP TABLE salaries;
-
-CREATE TABLE departments(
+﻿CREATE TABLE departments(
 	dept_no VARCHAR(10) PRIMARY KEY NOT NULL,
 	dept_name VARCHAR(250) NOT NULL
 );
