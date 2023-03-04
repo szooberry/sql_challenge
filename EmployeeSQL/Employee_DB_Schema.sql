@@ -19,11 +19,11 @@ CREATE TABLE employees(
 	emp_no INT PRIMARY KEY NOT NULL,
 	emp_title_id VARCHAR(10) NOT NULL,
 	FOREIGN KEY (emp_title_id) REFERENCES titles(title_id),
-	birth_date VARCHAR,
+	birth_date VARCHAR(20),
 	first_name VARCHAR(100),
 	last_name VARCHAR(100),
-	sex VARCHAR,
-	hire_date VARCHAR
+	sex VARCHAR(5),
+	hire_date VARCHAR(20)
 );
 
 CREATE TABLE departmentemployees(
